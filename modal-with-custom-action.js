@@ -17,7 +17,7 @@ const showModal = (title, description, yesBtnLabel = 'Yes', noBtnLabel = 'Cancel
 
   modalWrap = document.createElement('div');
   modalWrap.innerHTML = `
-    <div class="modal fade" tabindex="-1">
+    <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header bg-light">
